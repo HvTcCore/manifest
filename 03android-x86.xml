@@ -3,26 +3,26 @@
 
   <!-- GRAPHICS STACK -->
 <!--
-  <project path="external/IA-Hardware-Composer" name="platform/external/IA-Hardware-Composer" remote="x86" revision="pie-x86" />
+  <project path="external/IA-Hardware-Composer" name="external-IA-Hardware-Composer" remote="x86" revision="pie-x86" />
 -->
-  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
+  <project path="external/gbm_gralloc" name="external-gbm_gralloc" remote="x86" revision="q-x86" />
 <!--
   ? minigbm_intel
 -->
-  <project path="external/minigbm_intel" name="platform/external/minigbm" remote="x86" revision="pie-x86_intel" />
-  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="q-x86" />
+  <project path="external/minigbm_intel" name="external-minigbm" remote="x86" revision="pie-x86_intel" />
+  <project path="external/drm_framebuffer" name="external-drm_framebuffer" remote="x86" revision="q-x86" />
 <!--
   <project path="external/drmfb-composer" name="drmfb-composer.git" remote="maurossi" revision="q-x86" />
 -->
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="q-x86" />
+  <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="q-x86" />
   <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="maurossi" revision="blueprint_q-x86" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.103_r-x86" />
 <!--
   ? llvm90
 -->
-  <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
+  <project path="external/llvm90" name="external-llvm" remote="x86" revision="q-x86" />
   <project path="external/mesa" name="mesa" remote="maurossi" revision="20.1.0_pie-x86" />
-  <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
+  <project path="external/swiftshader" name="external-swiftshader" remote="x86" revision="q-x86" />
     
   <!-- FILESYSTEM -->
     
@@ -32,32 +32,32 @@
   <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="master" />
   
   <!-- EXTERNAL -->
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="q-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="q-x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="q-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="q-x86" />
-  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="q-x86" />
-  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="q-x86" />
+  <project path="external/alsa-lib" name="external-alsa-lib" remote="x86" revision="q-x86" />
+  <project path="external/alsa-utils" name="external-alsa-utils" remote="x86" revision="q-x86" />
+  <project path="external/bluetooth/bluez" name="external-bluetooth-bluez" remote="x86" revision="q-x86" />
+  <project path="external/busybox" name="external-busybox" remote="x86" revision="q-x86" />
+  <project path="external/efibootmgr" name="external-efibootmgr" remote="x86" revision="q-x86" />
+  <project path="external/efivar" name="external-efivar" remote="x86" revision="q-x86" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="r11-r17" />
-  <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="q-x86" />
-  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="q-x86" />
-  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="q-x86" />
+  <project path="external/koush/Superuser" name="external-koush-Superuser" remote="x86" revision="q-x86" />
+  <project path="external/koush/Widgets" name="external-koush-Widgets" remote="x86" revision="q-x86" />
+  <project path="external/s2tc" name="external-s2tc" remote="x86" revision="q-x86" />
   <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="r11-r17" />
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="r11-r17" />
   
   <!-- HARDWARE -->
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="q-x86" />
-  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="q-x86" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="q-x86" />
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="q-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
-  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
+  <project path="hardware/gps" name="hardware-gps" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/audio_media" name="hardware-intel-audio_media" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/common/libva" name="hardware-intel-common-libva" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/common/vaapi" name="hardware-intel-common-vaapi" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/libsensors" name="hardware-intel-libsensors" remote="x86" revision="q-x86" />
+  <project path="hardware/libaudio" name="hardware-libaudio" remote="x86" revision="q-x86" />
+  <project path="hardware/libcamera" name="hardware-libcamera" remote="x86" revision="q-x86" />
+  <project path="hardware/liblights" name="hardware-liblights" remote="x86" revision="q-x86" />
+  <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="q-x86" />
+  <project path="hardware/memtrack" name="hardware-memtrack" remote="x86" revision="q-x86" />
   <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="r11" />
-  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
+  <project path="packages/apps/TSCalibration2" name="packages-apps-TSCalibration2" remote="x86" revision="q-x86" />
   
   <!-- VENDORS -->
 <!--
