@@ -10,23 +10,23 @@
   <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
   <project path="external/hcitools" name="hcitools" remote="sg" revision="12l-x86" />
   <project path="external/thermal_daemon" name="thermal_daemon" remote="sg" revision="master" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="r-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="r-x86" />
+  <project path="hardware/intel/libsensors" name="hardware-intel-libsensors" remote="x86" revision="r-x86" />
+  <project path="hardware/libcamera" name="hardware-libcamera" remote="x86" revision="q-x86" />
+  <project path="hardware/liblights" name="hardware-liblights" remote="x86" revision="r-x86" />
+  <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="r-x86" />
   <project path="hardware/libbt-vendor-intel" name="libbt-vendor-intel" remote="sg" revision="master" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
+  <project path="hardware/gps" name="hardware-gps" remote="x86" revision="r-x86" />
   <project path="vendor/intel/hardware/interfaces" name="vendor-hardware-interfaces" remote="sg" revision="12l-x86" sync-s="true" />
 
   <!-- Device tree -->
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="arcadia-x86" sync-s="true" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="hm" revision="main" />
   <project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
-  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
+  <project path="device/generic/x86" name="device-generic-x86" remote="x86" revision="r-x86" />
 
   <!-- Graphics -->
   <project path="external/angle" name="platform/external/angle" remote="aosp" groups="pdk" revision="refs/tags/android-13.0.0_r30" />
-  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
+  <project path="external/drm_framebuffer" name="external-drm_framebuffer" remote="x86" revision="r-x86" />
   <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="maurossi" revision="mesa-21.2" />
   <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="main" />
   <project path="external/drm_hwcomposer_celadon" name="drm_hwcomposer.git" remote="sg" revision="celadon" />
@@ -52,23 +52,23 @@
   <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="12l-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="sg" revision="release/5.1" />
   <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" /> 
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
+  <project path="hardware/intel/audio_media" name="hardware-intel-audio_media" remote="x86" revision="r-x86" />
   <project path="hardware/intel/common/libva" name="libva" remote="sg" revision="11-x86" />
   <project path="hardware/intel/common/gmmlib" name="gmmlib" remote="sg" revision="latest" />
   <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="22.6" />
   <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="sg" revision="11-x86" />
 
   <!-- Misc -->
-  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
-  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
+  <project path="external/efibootmgr" name="external-efibootmgr" remote="x86" revision="r-x86" />
+  <project path="external/efivar" name="external-efivar" remote="x86" revision="r-x86" />
   <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
-  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
+  <project path="external/s2tc" name="external-s2tc" remote="x86" revision="r-x86" />
   <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
+  <project path="external/v86d" name="external-v86d" remote="x86" revision="r-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="13-x86" />
 
   <!-- Power & Memtrack HALs-->
-  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="r-x86" />
+  <project path="hardware/memtrack" name="hardware-memtrack" remote="x86" revision="r-x86" />
   <project path="hardware/x86power" name="hardware-x86power" remote="sg" revision="r11" />
 
   <!-- AOSP components but newer -->

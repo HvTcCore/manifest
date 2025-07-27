@@ -2,7 +2,10 @@
 <manifest>
 
   <!-- Remotes -->
+    <!-- broken old
   <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+    -->
+  <remote name="x86" fetch="https://github.com/android-x86-mirror" />
   <remote name="maurossi" fetch="https://github.com/maurossi" />
   <remote name="ag" fetch="https://gitlab.com/android-generic" />
   <remote name="gl" fetch="https://gitlab.com" />
