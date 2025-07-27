@@ -18,7 +18,10 @@
   <remote name="maurossi" fetch="https://github.com/maurossi"/>
   <remote name="mindthegapps" fetch="https://gitlab.com/MindTheGapps"/>
   <remote name="sg" fetch="https://github.com/supremegamers"/>
+    <!-- broken old
   <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86"/>
+    -->
+  <remote name="x86" fetch="https://github.com/android-x86-mirror"/>
   
   <default remote="aosp" revision="refs/tags/android-12.1.0_r22" sync-j="4"/>
   
