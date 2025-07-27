@@ -29,8 +29,12 @@
   <remote name="bitbucket" 
           fetch="https://bitbucket.org/" />
 
+    <!-- broken old
   <remote  name="x86"
            fetch="git://git.osdn.net/gitroot/android-x86" />
+    -->
+  <remote  name="x86"
+           fetch="https://github.com/android-x86-mirror" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
@@ -54,36 +58,36 @@
 
 <!-- BEGIN ANDROID-X86 -->
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
-  <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="marshmallow-x86" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
-  <project path="external/eject" name="platform/external/eject" remote="x86" revision="marshmallow-x86" />
-  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="marshmallow-x86" />
-  <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
-  <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="bootable/newinstaller" name="bootable-newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project path="device/generic/firmware" name="device-generic-firmware" remote="x86" revision="marshmallow-x86" />
+  <project path="external/alsa-lib" name="external-alsa-lib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/alsa-utils" name="external-alsa-utils" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/bluez" name="external-bluetooth-bluez" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/glib" name="external-bluetooth-glib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/sbc" name="external-bluetooth-sbc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/busybox" name="external-busybox" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_hwcomposer" name="external-drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
+  <project path="external/eject" name="external-eject" remote="x86" revision="marshmallow-x86" />
+  <project path="external/googleanalytics" name="external-googleanalytics" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libpciaccess" name="external-libpciaccess" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libdrm" name="external-libdrm" remote="x86" revision="marshmallow-x86" />
+  <project path="external/llvm" name="external-llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="external/mesa" name="platform_external_mesa" remote="BR-x86" revision="mm6.0" />
-  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86"/>
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
-  <project path="system/vold" name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
+  <project path="external/s2tc" name="external-s2tc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/v86d" name="external-v86d" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/gps" name="hardware-gps" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/intel/audio_media" name="hardware-intel-audio_media" groups="intel" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/intel/libsensors" name="hardware-intel-libsensors" remote="x86" revision="marshmallow-x86"/>
+  <project path="hardware/libaudio" name="hardware-libaudio" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/libcamera" name="hardware-libcamera" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/liblights" name="hardware-liblights" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/ril" name="hardware-ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/x86power" name="hardware-x86power" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/TSCalibration2" name="packages-apps-TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/services/Analytics" name="packages-services-Analytics" remote="x86" revision="marshmallow-x86" />
+  <project path="system/vold" name="system-vold" remote="x86" revision="marshmallow-x86" />
 
 <!-- END ANDROID-X86 -->
 
@@ -130,15 +134,15 @@
 <!-- END BLISS -->
 
 <!-- BEGIN CYANOGENMOD-X86 -->
-  <project path="bionic" name="platform/bionic" remote="x86" groups="pdk" revision="cm-13.0-x86" />
+  <project path="bionic" name="bionic" remote="x86" groups="pdk" revision="cm-13.0-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="hardware/intel/intel-driver" name="platform/hardware/intel/intel-driver" remote="x86" revision="cm-13.0-x86" />
-  <project path="hardware/intel/libva" name="platform/hardware/intel/libva" remote="x86" revision="cm-13.0-x86" />
-  <project path="hardware/powerbtnd" name="platform/hardware/powerbtnd" remote="x86" revision="cm-13.0-x86" />
-  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/core" name="platform/system/core" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/extras" name="platform/system/extras" remote="x86" revision="cm-13.0-x86" />
+  <project path="hardware/intel/intel-driver" name="hardware-intel-intel-driver" remote="x86" revision="cm-13.0-x86" />
+  <project path="hardware/intel/libva" name="hardware-intel-libva" remote="x86" revision="cm-13.0-x86" />
+  <project path="hardware/powerbtnd" name="hardware-powerbtnd" remote="x86" revision="cm-13.0-x86" />
+  <project path="packages/apps/Trebuchet" name="packages-apps-Trebuchet" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/core" name="system-core" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/extras" name="system-extras" remote="x86" revision="cm-13.0-x86" />
 <!-- END CYANOGENMOD-X86 -->
 
 <!-- BEGIN CYANOGENMOD -->
