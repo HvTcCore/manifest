@@ -37,8 +37,12 @@
   <remote name="gitlab-incom"
           fetch="https://gitlab.incom.co" />
           
+    <!-- broken old
   <remote  name="x86"
            fetch="git://git.osdn.net/gitroot/android-x86" />
+    -->
+  <remote  name="x86"
+           fetch="https://github.com/android-x86-mirror" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
@@ -75,7 +79,7 @@
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.1-x86" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.0" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
+  <project path="external/ffmpeg" name="external-ffmpeg" remote="x86" revision="nougat-x86" />
   
   <project path="art" name="platform/art" groups="pdk" remote="aosp"/>
   <!-- <project name="platform_art" path="art" remote="BlissRoms" /> -->
@@ -208,36 +212,36 @@
 <!-- ENG SUBSTRATUM -->
 
 <!-- from x86 port repositories -->
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="nougat-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="nougat-x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="nougat-x86" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="nougat-x86" />
-  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="nougat-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="nougat-x86" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="nougat-x86" /> 
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
-  <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="nougat-x86" />
-  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="nougat-x86" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />	
-  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
-  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
-  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="nougat-x86" /> 
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="nougat-x86" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="x86" revision="nougat-x86" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="nougat-x86" />
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="nougat-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="nougat-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="nougat-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
-  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
-  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
+  <project path="external/alsa-lib" name="external-alsa-lib" remote="x86" revision="nougat-x86" />
+  <project path="external/alsa-utils" name="external-alsa-utils" remote="x86" revision="nougat-x86" />
+  <project path="external/bluetooth/bluez" name="external-bluetooth-bluez" remote="x86" revision="nougat-x86" />
+  <project path="external/bluetooth/glib" name="external-bluetooth-glib" remote="x86" revision="nougat-x86" />
+  <project path="external/bluetooth/sbc" name="external-bluetooth-sbc" remote="x86" revision="nougat-x86" />
+  <project path="external/busybox" name="external-busybox" remote="x86" revision="nougat-x86" />
+  <project path="external/drm_gralloc" name="external-drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
+  <project path="external/drm_hwcomposer" name="external-drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="nougat-x86" /> 
+  <project path="external/e2fsprogs" name="external-e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/eject" name="external-eject" remote="x86" revision="nougat-x86" />
+  <project path="external/exfat" name="external-exfat" remote="x86" revision="nougat-x86" />
+  <project path="external/googleanalytics" name="external-googleanalytics" remote="x86" revision="nougat-x86" />
+  <project path="external/libdrm" name="external-libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/libtruezip" name="external-libtruezip" remote="x86" revision="nougat-x86" />
+  <project path="external/llvm" name="external-llvm" groups="pdk" remote="x86" revision="nougat-x86" />	
+  <project path="external/ntfs-3g" name="external-ntfs-3g" remote="x86" revision="nougat-x86" />
+  <project path="external/s2tc" name="external-s2tc" remote="x86" revision="nougat-x86" />
+  <project path="external/stagefright-plugins" name="external-stagefright-plugins" remote="x86" revision="nougat-x86" /> 
+  <project path="hardware/broadcom/wlan" name="hardware-broadcom-wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
+  <project path="hardware/gps" name="hardware-gps" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/audio_media" name="hardware-intel-audio_media" groups="intel" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/libsensors" name="hardware-intel-libsensors" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libaudio" name="hardware-libaudio" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libcamera" name="hardware-libcamera" remote="x86" revision="nougat-x86" />
+  <project path="hardware/liblights" name="hardware-liblights" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="nougat-x86" />
+  <project path="hardware/ril" name="hardware-ril" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/x86power" name="hardware-x86power" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/TSCalibration2" name="packages-apps-TSCalibration2" remote="x86" revision="nougat-x86" />
+  <project path="packages/services/Analytics" name="packages-services-Analytics" remote="x86" revision="nougat-x86" />
   
 <!-- from x86 port repositories -->
 
@@ -652,8 +656,8 @@
   <project path="hardware/intel/img/psb_headers" remote="cm" name="lineageos/android_hardware_intel_img_psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" remote="cm" name="lineageos/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,notdefault" remote="aosp" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libhardware" name="hardware-libhardware" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libhardware_legacy" name="hardware-libhardware_legacy" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,notdefault" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,notdefault" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,notdefault" remote="aosp" />
