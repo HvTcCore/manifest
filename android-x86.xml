@@ -167,6 +167,6 @@
 	<project path="system/hardware/interfaces" name="system-hardware-interfaces" remote="x86" revision="q-x86" />
 	
 	<project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" clone-depth="1" />
-	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
+	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="2078a6bf9e5479104cfe2cbf54e9602672bd89f7" clone-depth="1" />
 		  
 </manifest>
